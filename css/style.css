@@ -182,3 +182,68 @@ footer{
     text-decoration: none;
     color: white;
 }
+
+/*Cambios agregados*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+/* Logo insertado */
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+/*header*/
+.navbar{
+    background-color: #43aa68;
+    font-family:'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+/*Links botones y recuadro logo*/
+.recuadro{
+    background-color: #226440;
+    border-radius: 10px;
+    padding: 5px;
+    color: #fcd59c;
+}
+
+.textologo{
+    margin: 0;
+    font-family:'Caveat', cursive;
+    font-size: 4rem;
+}
+
+.botonespecial:hover{
+    background-color: #fcd59c;
+}
+
+
+/*Fin del header*/
+/*Carrousel*/
+.imagencarrousel{
+    width: 100%;
+    height: 820px;
+}
+
+.imagencarrouseldisplay{
+    height: 100%;
+}
+
+#perro3{
+    width:30%;
+    height: 100%;
+}
+@media screen and (max-width:992px){
+    .recuadro{
+        background-color: transparent;
+    }    
+    .imagencarrousel{
+        height: 420px;
+    }
+    
+}
+
